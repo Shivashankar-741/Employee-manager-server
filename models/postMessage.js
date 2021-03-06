@@ -4,7 +4,7 @@ const postSchema = mongoose.Schema({
   name: String,
   email: String,
   jobTitle: String,
-  phone: Number,
+  phoneNumber: Number,
   imageURL: String,
 });
 
