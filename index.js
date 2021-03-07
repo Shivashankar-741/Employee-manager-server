@@ -16,7 +16,7 @@ app.use(cors());
 app.use("/posts", postRoutes);
 
 app.get("/", (req, res) => {
-  res.send("api sent");
+  res.send("Employee Manager App");
 });
 
 const PORT = process.env.PORT || 4000;
